@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('welcome_ab');
 });
+
+Route::get('/github', function () {
+    return view('welcome_gh');
+});
